@@ -1,0 +1,67 @@
+.header{
+	@media (min-width: 576px) {  }
+	@media (min-width: 700px) { 
+		&__contacts{
+			display: flex;
+			width: 100%;
+			max-width: 15rem;
+		}
+		&__menu{
+			right: 19rem;
+		}
+		&__mail{
+			display: flex;
+			margin-right: auto;
+			margin-left: 3rem;
+			font-weight: 400;
+			font-size: 1.6rem;
+			line-height: 140%;
+			color: rgba(17, 37, 61, 0.46);
+		}
+		&__nav{
+			padding: 3rem 3rem 1rem;
+		}
+	 }
+	@media (min-width: 992px) {
+		&__menu{
+			display: none;
+		}
+		&__nav{
+			padding: 0;
+			position: unset;
+			flex-direction: row;
+			align-items: center;
+			width: auto;
+			margin-left: 2rem;
+			&-link{
+				padding: 0;
+				border: none;
+				font-weight: 500;
+				font-size: 1.3rem;
+				width: unset;
+				margin: 0 1rem 0 0;
+			}
+		}
+		&__mail{
+			margin-left: 1rem;
+		}
+	 }
+	@media (min-width: 1200px) {
+		&__nav{
+			margin-left: 3rem;
+			&-link{
+				font-size: 1.6rem;
+				margin: 0 3rem 0 0;
+			}
+		}
+	}
+	@media (min-width: 1600px) {
+		&__nav{
+			margin-left: 5rem;
+			&-link{
+				font-size: 1.8rem;
+				margin: 0 5rem 0 0;
+			}
+		}
+    }
+}

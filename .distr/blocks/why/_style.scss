@@ -1,0 +1,46 @@
+.why{
+	background: #fff;
+	color: #11253D;
+	border-radius: 1rem;
+	margin-top: 1.5rem;
+	padding: 5rem 0;
+	&__text{
+		font-weight: 500;
+		font-size: 1.8rem;
+		line-height: 140%;
+		color: rgba(17, 37, 61, .6);
+		max-width: 56rem;
+		margin-bottom: 4rem;
+	}
+	&__block{
+		display: grid;
+		grid-template-columns: 1fr;
+		gap:3.5rem;
+	}
+	&__item{
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		&-nmb{
+			width: 3.2rem;
+			height: 3.2rem;
+			background: #4F6BFF;
+			color: #fff;
+			border-radius: 5px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-shrink: 0;
+			font-weight: 500;
+			font-size: 1.8rem;
+			line-height: 130%;
+			margin-right: 2rem;
+		}
+		&-text{
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 140%;
+			color: #11253D;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.formblock{
+	background: #FAF14D;
+	color: #11253D;
+	border-radius: 1rem;
+	margin-top: 1.5rem;
+	padding: 5rem 0;
+	&._pay{
+		background: #4F6BFF;
+	}
+	&.--yellow{
+		background: #FAF14D;
+	}
+}

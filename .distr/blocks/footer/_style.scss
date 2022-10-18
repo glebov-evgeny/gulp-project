@@ -1,0 +1,60 @@
+.footer{
+    padding: 3rem 0 8rem;
+    // background: #fff;
+    &._clear{
+        padding: 3rem 0; 
+    }
+    &__flex{
+        display: flex;
+        flex-direction: column;
+    }
+    &__link{
+        font-size: 1.6rem;
+        line-height: 100%;
+        color: #A0A8B1;
+        margin-bottom: 1.5rem;
+        &:hover{
+            opacity: 1;
+            color: #A0A8B1;
+        }
+    }
+    &__content{
+        margin-bottom: 2rem;
+    }
+    &__nav{
+        display: none;
+    }
+    &__btn{
+        display: flex;
+        position: fixed;
+        bottom: -50rem;
+        left: 0;
+        right: 0;
+        width: 98%;
+        max-width: 50.5rem;
+        min-height: 5.5rem;
+        margin: 0 auto;
+        z-index: 100;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #4F6BFF;
+        border-radius: .5rem;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 100%;
+        text-transform: uppercase;
+        box-shadow: 0 .2rem 3rem -.5rem #ffffff;
+        transition: .3s;
+        &:hover,
+        &:visited{
+            color: #ffffff;
+            opacity: 1;
+        }
+
+        &.active{
+            bottom: 1rem;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.promo{
+    @media (min-width: 576px) {
+       &__container{
+           grid-template-columns: repeat(3, 1fr);
+           gap: 1rem;
+       }
+       &__item{
+            align-items: flex-start;
+            padding: 3rem 2rem 12rem;
+            &-text{
+                max-width: inherit;
+            }
+       }
+    }
+	@media (min-width: 768px) {
+        &__container{
+            gap: 2rem;
+        }
+        &__item{
+             padding: 3rem 3rem 12rem;
+             &-text{
+                 max-width: inherit;
+             }
+        }
+    }
+	@media (min-width: 992px) {
+
+    }
+	@media (min-width: 1200px) {
+        &__item{
+            align-items: center;
+            transition: .4s;
+            padding: 3.5rem 3rem;
+            &-text{
+                max-width: 21rem;
+            }
+            &:hover{
+                background: #fffef7;
+                box-shadow: 10px 10px #e5e9ff;
+            }
+       }
+    }
+    @media (min-width: 1450px) {
+       
+    }
+    @media (min-width: 1600px) {
+       
+    }
+}

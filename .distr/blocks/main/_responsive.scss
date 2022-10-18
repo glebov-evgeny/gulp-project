@@ -1,0 +1,85 @@
+.main{
+    @media (min-width: 576px) {
+        &__title{
+            font-size: 7.2rem;
+            margin-bottom: 3rem;
+        }
+        &__description{
+            font-size: 2.4rem;
+            margin-bottom: 3rem;
+        }
+        &__text{
+            font-size: 2rem;
+        }
+        &__btn{
+            margin: 4rem 0 0;
+        }
+        &__bg{
+            margin-top: -5rem;
+            max-width: 45rem;
+            margin-left: auto;
+            margin-right: -10rem;
+            margin-bottom: -14rem;
+        }
+    }
+	@media (min-width: 768px) {
+       
+    }
+	@media (min-width: 992px) {
+        background: url(../img/main/bg.jpg) center right no-repeat, #4F6BFF;
+        background-size: cover;
+        padding: 6rem 0rem;
+        &__container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__content,
+        &__bg{
+            width: 50%;
+        }
+        &__title{
+            font-size: 6.2rem;
+        }
+        &__description{
+            font-size: 1.8rem;
+        }
+        &__text{
+            font-size: 1.6rem;
+        }
+        &__bg{
+            margin-top: 0rem;
+            max-width: 45rem;
+            margin-left: auto;
+            margin-right: -2rem;
+            margin-bottom: 0;
+        }
+    }
+	@media (min-width: 1200px) {
+        &__title{
+            font-size: 8rem; 
+        }
+        &__description{
+            font-size: 2.6rem;
+        }
+        &__text{
+            font-size: 2rem;
+        }
+        &__content{
+            max-width: 61rem;
+        }
+    }
+    @media (min-width: 1450px) {
+       &__bg{
+           max-width: inherit;
+           img{
+               margin-left: auto;
+           }
+       }
+    }
+    @media (min-width: 1600px) {
+        &__bg{
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.about{
+	background: #fff;
+	color: #11253D;
+	border-radius: 1rem;
+	margin-top: 1.5rem;
+	padding: 5rem 0;
+	&__block{
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+	&__item{
+		border: 1px solid #E5E5E5;
+		border-radius: 1rem;
+		padding: 3rem 1.5rem;
+		transition: .4s;
+		&:hover{
+			box-shadow: 0 10px 20px #cdcdcd5e;
+		}
+		&-pic{
+			max-width: 10rem;
+			margin-bottom: 1.5rem;
+		}
+		&-text{
+			font-weight: 500;
+			font-size: 1.8rem;
+			line-height: 140%;
+			color: #11253D;
+			margin-bottom: 1.5rem;
+			&._color{
+				opacity: .6;
+				margin: 0;
+			}
+		}
+	}
+}

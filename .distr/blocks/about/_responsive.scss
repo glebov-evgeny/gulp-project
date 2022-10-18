@@ -1,0 +1,34 @@
+.about{
+    @media (min-width: 576px) {
+      &__item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 3rem 2rem;
+        &-pic{
+            flex-shrink: 0;
+            margin: 0 2rem 0 0;
+        }
+      }
+    }
+	@media (min-width: 768px) {
+       
+    }
+	@media (min-width: 992px) {
+        &__item{
+            &-text{
+                font-size: 2rem;
+            }
+        }
+    }
+	@media (min-width: 1200px) {
+
+    }
+    @media (min-width: 1450px) {
+       
+    }
+    @media (min-width: 1600px) {
+       
+    }
+}

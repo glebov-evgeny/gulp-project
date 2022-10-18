@@ -1,0 +1,17 @@
+.finish{
+	background: #fff;
+	color: #11253D;
+	border-radius: 1rem;
+	margin-top: 1.5rem;
+	padding: 5rem 0;
+	&__pic{
+		img{
+			margin: 0 auto;
+		}		
+	}
+	&__title{
+		br{
+			display: none;
+		}
+	}
+}

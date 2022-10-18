@@ -1,0 +1,79 @@
+.main{
+	background: url(../img/main/bg-mobile.jpg) bottom center no-repeat, #4F6BFF;
+	background-size: cover;
+	color: #FFFFFF;
+	border-radius: 1rem;
+	padding: 6rem 0rem 4rem;
+	overflow: hidden;
+	&__title{
+		font-weight: 800;
+		font-size: 4.2rem;
+		line-height: 90%;
+		text-transform: uppercase;
+		margin-bottom: 2rem;
+	}
+	&__content{
+		opacity: 0;
+		animation: moveTitle 0.4s ease-out 1;
+		animation-fill-mode: forwards;
+		animation-delay: 0.2s;
+	}
+	@keyframes moveTitle {
+		0%{
+			transform: translate3d(0, -30px, 0);
+		}
+		100%{
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+		}
+	}
+	&__description{
+		font-weight: 500;
+		font-size: 1.8rem;
+		line-height: 120%;
+		text-transform: uppercase;
+		margin-bottom: 2rem;
+	}
+	&__text{
+		font-weight: 400;
+		font-size: 1.8rem;
+		line-height: 140%;
+	}
+	&__bg{
+		margin-top: 5rem;
+	}
+	&__btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #FAF14D;
+		color: #11253D;
+		border-radius: 5px;
+		font-weight: 500;
+		font-size: 1.6rem;
+		line-height: 100%;
+		text-transform: uppercase;
+		width: 100%;
+		max-width: 18rem;
+		min-height: 4.5rem;
+		margin: 3rem 0 0;
+		transition: .4s;
+		animation: animateShadow 3s linear infinite;
+		&:hover{
+			opacity: 1;
+			background: #FAF14D;
+			color: #11253D;
+		}
+		@keyframes animateShadow {
+			0% {
+				box-shadow: 0 5px 20px #faf14d;
+			}
+			50% {
+				box-shadow: -5px -5px 30px #fff648;
+			}
+			100% {
+				box-shadow: 0 5px 20px #faf14d;
+			}
+		  }
+	}
+}

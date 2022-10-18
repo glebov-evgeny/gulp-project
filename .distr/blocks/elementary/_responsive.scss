@@ -1,0 +1,33 @@
+.elementary{
+    @media (min-width: 576px) {
+        &__item{
+            &-aside{
+               width: 8.5rem;
+               img{
+                   width: auto;
+                   height: auto;
+               }
+            }
+            &-main {
+                padding: 2rem 3rem 2rem 5rem;
+            }
+        }
+    }
+	@media (min-width: 768px) {
+       
+    }
+	@media (min-width: 992px) {
+        &__block{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+	@media (min-width: 1200px) {
+       
+    }
+    @media (min-width: 1450px) {
+       
+    }
+    @media (min-width: 1600px) {
+       
+    }
+}

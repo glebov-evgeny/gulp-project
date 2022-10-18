@@ -1,0 +1,52 @@
+.why{
+    @media (min-width: 576px) {
+      
+    }
+	@media (min-width: 768px) {
+        &__block{
+           grid-template-columns: repeat(3, 1fr);
+        }
+        &__item{
+            flex-direction: column;
+            &-nmb{
+                margin: 0 0 2rem;
+            }
+        }
+    }
+	@media (min-width: 992px) {
+        &__container{
+            position: relative;
+            &::before{
+                content: '';
+                width: 12rem;
+                height: 12rem;
+                background: url(../img/why/logo.png) center no-repeat;
+                background-size: cover;
+                position: absolute;
+                top: 0;
+                right: 5rem;
+            }
+        }
+        &__text{
+           font-size: 2.4rem; 
+           max-width: 60rem;
+        }
+        &__item{
+            flex-direction: row;
+            &-nmb{
+                margin: 0 2rem 0;
+            }
+        }
+    }
+	@media (min-width: 1200px) {
+        &__text {
+            max-width: 80rem;
+        }
+    }
+    @media (min-width: 1450px) {
+       
+    }
+    @media (min-width: 1600px) {
+       
+    }
+}

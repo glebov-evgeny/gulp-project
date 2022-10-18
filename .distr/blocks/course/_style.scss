@@ -1,0 +1,59 @@
+.course{
+	background: #fff;
+	color: #11253D;
+	border-radius: 1rem;
+	margin-top: 1.5rem;
+	padding: 5rem 0;
+	&__block{
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+	&__item{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #E5E5E5;
+		border-radius: 1rem;
+		overflow: hidden;
+		transition: .4s;
+		&:hover{
+			box-shadow: 0 10px 20px #cdcdcd5e;
+		}
+		&-id{
+			font-style: normal;
+			font-weight: 800;
+			font-size: 4.2rem;
+			line-height: 100%;
+			color: rgba(79, 107, 255, 0.15);
+			-webkit-text-stroke: 1px #4F6BFF;
+		}
+		&-title{
+			font-weight: 700;
+			font-size: 2.4rem;
+			line-height: 120%;
+			color: #11253D;
+			
+		}
+		&-text{
+			font-weight: 500;
+			font-size: 1.8rem;
+			line-height: 140%;
+			color: #11253D;
+			opacity: 0.6;
+			margin-top: 1rem;
+		}
+		&-aside{
+			background: rgba(79, 107, 255, 0.15);
+			padding: 1.5rem;
+			width: 100%;
+			flex-shrink: 0;
+		}
+		&-main{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			padding: 3rem 1.5rem;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+.finish{
+    @media (min-width: 576px) {
+     
+    }
+	@media (min-width: 768px) {
+        &__container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__pic{
+            width: 100%;
+            max-width: 25rem;
+            flex-shrink: 0;
+            margin-left: 5rem;
+        }
+    }
+	@media (min-width: 992px) {
+        &__pic{
+            max-width: 33rem;
+            margin-left: 10rem;
+        }
+        &__title{
+            br{
+                display: block;
+            }
+        }
+    }
+	@media (min-width: 1200px) {
+
+    }
+    @media (min-width: 1450px) {
+       
+    }
+    @media (min-width: 1600px) {
+       
+    }
+}

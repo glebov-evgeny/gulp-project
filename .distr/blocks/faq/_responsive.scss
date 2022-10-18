@@ -1,0 +1,29 @@
+.faq{
+    @media (min-width: 576px) {
+       
+    }
+	@media (min-width: 768px) {
+        &__item{
+            &-title{
+                max-width: inherit;
+            }
+            &-arrow {
+                top: 0rem;
+            }
+        }
+    }
+	@media (min-width: 992px) {
+
+    }
+	@media (min-width: 1200px) {
+       &__item{
+           padding: 4rem 0;
+       }
+    }
+    @media (min-width: 1450px) {
+       
+    }
+    @media (min-width: 1600px) {
+       
+    }
+}
